@@ -1,5 +1,13 @@
 #!/bin/bash
 
+CAMINHO_HOME=/home/galcastro
+cd $CAMINHO_HOME
+
+if [ ! -d backup_amazonS3 ];
+then
+    mkdir backup_amazonS3
+fi
+
 CAMINHO_BACKUP=/home/galcastro/backup_amazonS3
 cd $CAMINHO_BACKUP
 

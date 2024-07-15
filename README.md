@@ -59,7 +59,9 @@ Este script realiza o backup das tabelas de um banco de dados MySQL e envia o ba
 ```bash
 
 # Ajuste o path:
-    # na linha 3 altere o path inserindo o caminho onde seu script esta salvo
+    # nas linhas 3 e 11 altere os valores das variáveis indicando o path, coloque nelas o caminho conforme seu script estará salvo
+
+    CAMINHO_HOME=/home/seu-usuario
 
     CAMINHO_BACKUP=/home/seu-usuario/seu-caminho/backup_amazonS3
 
